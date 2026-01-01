@@ -1,6 +1,8 @@
 # New Tab URL - Chrome Extension
 
-A simple Chrome extension that lets you redirect new tabs to any URL of your choice.
+A simple and lightweight Chrome extension that lets you redirect new tabs to any URL of your choice.
+
+No fluff, no frills, no hidden security concerns (see section below).
 
 ## Installation
 
