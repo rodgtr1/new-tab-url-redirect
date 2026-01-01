@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Tab URL - Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 500px;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 12px;
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #status {
+      margin-top: 12px;
+      color: #4CAF50;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>New Tab URL Settings</h1>
+  <label for="url">Enter the URL for new tabs:</label>
+  <input type="url" id="url" placeholder="https://www.example.com" required>
+  <button id="save">Save</button>
+  <div id="status">Settings saved!</div>
+  <script src="options.js"></script>
+</body>
+</html>

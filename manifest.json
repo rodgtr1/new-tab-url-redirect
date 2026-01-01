@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab URL",
+  "version": "1.0",
+  "description": "Redirect new tab to a custom URL",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "New Tab URL",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "permissions": ["storage"],
+  "options_page": "options.html",
+  "chrome_url_overrides": {
+    "newtab": "newTabOverride.html"
+  }
+}
