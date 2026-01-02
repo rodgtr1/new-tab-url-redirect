@@ -1,5 +1,9 @@
 # New Tab URL - Chrome Extension
 
+[![GitHub](https://img.shields.io/github/license/rodgtr1/astro-link-validator)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/rodgtr1/astro-link-validator)](https://github.com/rodgtr1/astro-link-validator/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/rodgtr1/astro-link-validator)](https://github.com/rodgtr1/astro-link-validator/issues)
+
 A simple and lightweight Chrome extension that lets you redirect new tabs to any URL of your choice.
 
 No fluff, no frills, no hidden security concerns (see section below).
@@ -76,3 +80,11 @@ The entire codebase is under 100 lines of code - feel free to review it before i
 - Make sure you include the full URL with `https://` or `http://`
 - If the extension isn't working, try removing and reinstalling it
 - Check that the extension is enabled in `chrome://extensions/`
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
